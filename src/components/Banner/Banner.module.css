@@ -1,0 +1,70 @@
+.banner {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 24px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 400px;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title img {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+
+.title h2 {
+  font-size: 1.2rem;
+}
+
+.banner p {
+  margin: 8px 0 0 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.banner[data-color="success"] {
+  background-color: var(--color-green-bg);
+  color: var(--color-green-text);
+}
+
+.banner[data-color="error"] {
+  background-color: var(--color-red-bg);
+  color: var(--color-red-text);
+}
+
+.banner[data-color="neutral"] {
+  background-color: var(--color-blue-bg);
+  color: var(--color-blue-text);
+}
+
+.banner[data-color="warning"] {
+  background-color: var(--color-yellow-bg);
+  color: var(--color-yellow-text);
+}
+
+/* .banner[data-color="yellow"] h2::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/src/assets/warning.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+} */
