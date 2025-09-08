@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 :root {
   /* Green Theme */
   --color-green-bg: #d1fae5;
