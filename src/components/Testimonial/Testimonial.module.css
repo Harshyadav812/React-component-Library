@@ -1,0 +1,101 @@
+.testimonial {
+  background-color: #2545b8;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  display: flex;
+  margin: 40px 40px 40px 40px;
+  position: relative;
+}
+
+.testimonial.horizontal {
+  align-items: center;
+  padding: 10px 20px 10px 230px;
+  gap: 1.3rem;
+  min-width: 700px;
+  max-width: 900px;
+  height: 220px;
+}
+
+.profilePic.horizontal img {
+  position: absolute;
+  z-index: 2;
+  left: 30px;
+  transform: translateY(-50%);
+  width: 200px;
+  height: 260px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.quote img {
+  width: 40px;
+  height: auto;
+}
+
+.content.horizontal {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: start;
+  margin-bottom: 10px;
+  background-color: #2545b8;
+}
+
+/* Vertical variant styles */
+
+.testimonial.vertical {
+  background: linear-gradient(to bottom, white 110px, #2545b8 110px);
+  padding: 230px 15px 30px 15px;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  min-width: 320px;
+  height: 540px;
+}
+
+.profilePic.vertical img {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 300px;
+  width: 320px;
+  height: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.content.vertical {
+  position: relative;
+  z-index: 1;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  background-color: #2545b8;
+}
+
+.content footer {
+  padding-top: 20px;
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.role {
+  opacity: 0.8;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
