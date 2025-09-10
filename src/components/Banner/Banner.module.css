@@ -57,14 +57,3 @@
   background-color: var(--color-yellow-bg);
   color: var(--color-yellow-text);
 }
-
-/* .banner[data-color="yellow"] h2::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url("/src/assets/warning.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 8px;
-} */
